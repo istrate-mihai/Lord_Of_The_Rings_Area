@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+
 body {
   background-color: black;
 }
@@ -85,6 +85,8 @@ body {
   margin-top: 200px;
 }
 
-#song {
-  visibility: hidden;
+@media screen and (max-width: 992px) {
+  #gallery-container {
+    width: 100%;
+  }
 }
