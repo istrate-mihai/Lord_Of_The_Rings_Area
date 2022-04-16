@@ -138,7 +138,6 @@ h6 {
   position: absolute;
   top: 24px;
   left: 0;
-  width: 200px;
   display: none;
 }
 
@@ -375,24 +374,25 @@ a:active {
 
   #header {
     width: 100%;
+    height: auto;
     overflow: visible;
+    text-align: center;
   }
 
-  #headernavforpage,
+  #header h1 {
+    float: none;
+  }
+
+  #headernavforpage {
+    display: none;
+  }
+
   #headernavforsite {
-    width: 50%;
-    margin: 0px;
-    float: left;
-    font-size: 1.32em;
-  }
-
-  #headernavforsite {
-    float: right;
-  }
-
-  #headernavforpage > ul li:hover,
-  #headernavforsite > ul li:hover {
-    display: inline;
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: left;
+    font-size: 1.3em;
   }
 
   .contacticons {
