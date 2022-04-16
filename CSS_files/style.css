@@ -345,7 +345,7 @@ a:active {
   }
 
   #main {
-    width: 70%;
+    width: 100%;
     margin: 0%;
   }
 
@@ -355,7 +355,7 @@ a:active {
   }
 
   #sidebar {
-    width: 25%;
+    width: 100%;
     margin: 0%;
   }
 
@@ -364,8 +364,8 @@ a:active {
   }
 
   .sidebar_image {
-    width: 100%;
-    margin: 0%;
+    width: 50%;
+    margin-left: 25%;
   }
 
   #misty {
@@ -376,6 +376,23 @@ a:active {
   #header {
     width: 100%;
     overflow: visible;
+  }
+
+  #headernavforpage,
+  #headernavforsite {
+    width: 50%;
+    margin: 0px;
+    float: left;
+    font-size: 1.32em;
+  }
+
+  #headernavforsite {
+    float: right;
+  }
+
+  #headernavforpage > ul li:hover,
+  #headernavforsite > ul li:hover {
+    display: inline;
   }
 
   .contacticons {
